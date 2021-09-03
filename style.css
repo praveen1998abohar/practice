@@ -1,0 +1,297 @@
+body{
+	/*background: red;*/
+}
+
+*{
+			margin:0px;
+			padding: 0px;
+			box-sizing: border-box;
+
+		}
+		
+
+		
+		.background{
+			width: 100%;
+			height: 1087px;
+			float: left;
+			background-color: #b8dde3;
+			
+		}
+		.napbar{
+			width: 100%;
+			height: 50px;
+			/*margin-left: 0px;*/
+			/*background-color: red;*/
+		}
+		.logo {
+			width: 25%;
+			height: 50px;
+			float: left;
+			font-size: 40px;
+			margin-left: 70px;
+
+			/*background-color: white;*/
+		}
+		.a2{
+			width: 50%;
+			height: 50px;
+			float: left;
+			margin-left: 80px;
+			font-size: 20px;
+
+		}
+		.a2 ul{
+        padding: 10px;
+        list-style: none;
+        /*background: #f2f2f2;*/
+    }
+	   ul li{
+	        display: inline-block;
+	        position: relative;
+	        line-height: 21px;
+	        text-align: left;
+	    }
+	    ul li a{
+	        display: block;
+	        padding: 8px 25px;
+	        color: #333;
+	        text-decoration: none;
+	    }
+	    ul li a:hover{
+	        color: #fff;
+	        background: #939393;
+	    }
+	    ul li ul.dropdown{
+	        min-width: 100%; /* Set width of the dropdown */
+	        background: #f2f2f2;
+	        display: none;
+	        position: absolute;
+	        z-index: 999;
+	        left: 0;
+	    }
+	    ul li:hover ul.dropdown{
+	        display: block;	/* Display the dropdown */
+	    }
+	    ul li ul.dropdown li{
+	        display: block;
+	    }
+		.img{
+			width: 30%;
+			height: 100px;
+			margin-top:-20%;
+			margin-left: 776px;
+			/*background-image: url(heroo.png);*/
+		}
+		.h3{
+			height: 70px;
+			width: 40%;
+			font-size: 32px;
+			margin-top: 20%;
+			margin-left: 70px;
+
+		}
+		.h3 p{
+			color: #53545b;
+            font-size: 23px;
+            margin-bottom: 57px;
+		}
+	/*	.v1{
+			
+		}*/
+		.v1{
+			
+			/*background:red;*/
+			position: absolute;
+			animation-name: avii;
+			background-color: red;
+			animation-duration: 5s;
+			/*animation-delay: 2s;*/
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			width: 155px;
+			height: 53px;
+			font-size: 11px;
+			border-radius: 5px;
+			top: 0%;
+			left: 0%;
+			transform: translate(-50%,-50%);
+			
+			text-align: center;	
+		}
+		@keyframes avii{
+		  0%   { left:60%; top:70%;}
+		  25%  { left:61%; top:71%;}
+		  50%  { left:62%; top:72%;}
+		  75%  { left:61%; top:71%;}
+		  100% { left:60%; top:70%;}
+		}
+		.v1 h2{
+			color: black;
+		}
+		.v1 h3{
+			color: #53545b;
+		}
+
+.v2{
+			
+			/*background:red;*/
+			position: absolute;
+			animation-name: avi;
+			background-color: red;
+			animation-duration: 5s;
+			/*animation-delay: 2s;*/
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			width: 200px;
+			height: 100px;
+			font-size: 11px;
+			top: 60%;
+			left: 60%;
+			border-radius: 5px;
+			transform: translate(-50%,-50%);
+			
+			text-align: center;	
+		}
+		@keyframes avi{
+		  0%   { left:80%; top:98%;}
+		  25%  { left:81%; top:99%;}
+		  50%  { left:82%; top:100%;}
+		  75%  { left:81%; top:99%;}
+		  100% { left:80%; top:98%;}
+		}
+		.v2 h2{
+			color: black;
+		}
+		.v2 h3{
+			color: #53545b;
+		}
+		
+	
+.v3{
+			
+			/*background:red;*/
+			position: absolute;
+			animation-name: av;
+			background-color: red;
+			animation-duration: 5s;
+			/*animation-delay: 2s;*/
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			width: 200px;
+			height: 100px;
+			font-size: 11px;
+			top: 60%;
+			left: 60%;
+			transform: translate(-50%,-50%);
+			border-radius: 5px;
+			
+			text-align: center;	
+		}
+		@keyframes av{
+		  0%   { left:70%; top:120%;}
+		  25%  { left:71%; top:121%;}
+		  50%  { left:72%; top:122%;}
+		  75%  { left:71%; top:`121%;}
+		  100% { left:70%; top:120%;}
+		}
+		.v3 h2{
+			color: black;
+		}
+		.v3 h3{
+			color: #53545b;
+		}	
+		.t1{
+			height: 200px;
+			width: 100%;
+			/*background: red;*/
+			float: left;
+			font-size: 25px;
+			text-align: center;
+			margin-top: 100px;
+		}
+
+.picters{
+	/*height: 300px;*/
+	width: 100%;
+	/*background: red; */
+	float: left;
+
+}
+.picters .picter1{
+
+	height: 300px;
+	width: 20%;
+	background: rgb(50, 84, 168);
+	float: left;
+	margin: 2%;
+	border-radius: 6px;
+	transition: 2s linear;
+}
+
+.picter1:nth-child(2)
+{
+background:red;
+}
+.picter1:nth-child(3)
+{
+	background: blue;
+
+}
+.picter1:nth-child(4)
+{
+	background: green;
+}
+.picter1 img{
+	height: 100px;
+	width: 100px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+ .para
+ {
+ 	word-wrap:
+ 	position: absolute;
+ }
+ .btn{
+ 	display: none;
+ 	margin-top: 30px;
+ }
+ .picter1:hover{
+ 
+ 	margin-top: -30px;
+ 	transform: rotate(360deg);
+ }
+  .picter1:hover .btn{
+ 	display: block;
+ 
+ }
+  .picter1:hover .para{
+ 	display: none;}
+
+ .gho{
+ 	width: 100%;
+ 	height: 500px;
+ 
+ 	float: left;
+ 	margin-top: 100px;
+ }
+ .man1{
+ 	position: relative;
+ }
+ .man1 img.l1 {
+ 	width: 350px;
+ 	height: 500px;
+ 	border-radius: 10px;
+ 	margin-left: 100px;
+ 	position: absolute;
+
+ }
+ .man1 img.l2{
+ 	height: 300px;
+ 	width: 300px;
+ 	position: absolute;
+ 	top: 300px;
+ 	left:-10px;
+ 	/*z-index: 999;*/
+ }
